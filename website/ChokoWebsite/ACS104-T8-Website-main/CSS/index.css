@@ -1,0 +1,218 @@
+#main-title {
+    text-align: center;
+    font-family: Gazpacho, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: darkslateblue;
+    text-transform: uppercase;
+    text-shadow: lightgray 2px 2px 2px;
+}
+
+header p {
+    transition: margin-top 0.3s ease;
+}
+
+#introduction {
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+
+#introduction p {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: lightgray 2px 2px 2px;
+    margin: 0;
+}
+
+.marketing-video video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    object-fit: cover !important;
+    border-radius: 10px !important;
+}
+
+#game-flex-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    column-gap: 10%;
+    background: url("../img/banner-intro.png") center/cover no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+#game-flex-container > * {
+    position: relative;
+    z-index: 2;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow:auto;
+}
+
+#one p, #two p {
+    text-align: left;
+}
+
+.emphasis {
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+#why {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#invest_now {
+    display: flex;
+    justify-content: center;
+    column-gap: 3%;
+    color: darkslateblue;
+    flex-wrap: wrap;
+    margin: 0 15% 0 15%;
+}
+
+#invest_now > *{
+    margin-top: 5%;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#first *, #second *, #third *, #fourth * {
+    padding: 0px 20px 0 20px;
+    text-align: center;
+}
+
+#system-requirements {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 5px;
+}
+.highlighted-term {
+    color: darkslateblue;
+    font-size: 18px;
+}
+
+
+#system-requirements h2 {
+    color: darkslateblue;
+}
+
+#system-requirements h2,
+#system-requirements p { 
+    text-align: left;
+    padding: 0 20px 20px 20px;
+}
+
+#game-pics {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+#game-pics img {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+#gameplay {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#gameplay video {
+    border-radius: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+    #main-title {
+      font-size: 80px;
+      padding: 0 10px;
+    }
+
+    header p {
+        display: block;
+        margin-top: -60px;
+        text-align: center;
+        font-size: 14px;
+        padding: 0 10px;
+        position: static !important; 
+      }
+  
+    #introduction p {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  
+    #game-flex-container {
+      flex-direction: column;
+      height: auto;
+      row-gap: 40px;
+      padding: 20px;
+    }
+  
+    #game-flex-container > * {
+      width: 90%;
+      height: auto;
+    }
+  
+    #invest_now {
+      margin: 0 5%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #invest_now > * {
+      width: 90%;
+    }
+  
+    #game-pics {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #game-pics img {
+      width: 90%;
+      height: auto;
+    }
+  
+    #system-requirements {
+      width: 90%;
+      margin-top: 50px;
+    }
+  
+    #gameplay {
+      flex-direction: column;
+      height: auto;
+      margin-top: 40px;
+    }
+  
+    #gameplay video {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+  
+    #first *, #second *, #third *, #fourth * {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  

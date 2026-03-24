@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choko - Team 8</title>
+    <link rel="stylesheet" href="css/allpages.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <!-- LEFT: Logo -->
+        <section id="tabs-left">
+            <a href="../index.html" id="logo">
+                <img src="../img/choko_logo.png" alt="Choko Logo">
+            </a>
+        </section>
+
+        <!-- CENTER: Navigation links -->
+        <section id="tabs-center">
+            <a href="/html/about.html">About</a>
+            <a href="/html/deliverables.html">Deliverables</a>
+            <a href="/html/leaderboard.html">Leaderboard</a>
+        </section>
+
+        <!-- RIGHT: Log in -->
+        <section id="tabs-right">
+            <a href="/html/login.html">Log in</a>
+        </section>
+    </nav>
+    <h1 id="main-title">Choko</h1>
+    <p>Where Skill Meets Tradition</p>
+</header>
+
+<main>
+    <section id="introduction">
+        <p>Begin your journey into a game seeping with<br> culture and endless fun</p>
+    </section>
+
+    <figure id="game-pics">
+        <img src="img/gamepic2.png">
+    </figure>
+
+    <section id="game-flex-container">
+        <summary id="one">
+            <h2>The Game</h2>
+            <p>
+                Choko is a 2 player game that focuses on strategy, speed and competitiveness.<br><br>
+                The goal of the game is to capture all of your opponent's pieces!<br><br>
+                <em class="emphasis">May the best player win!</em>
+            </p>
+        </summary>
+
+        <summary id="two">
+            <h2>Rules</h2>
+            <ul>
+                <li>At the start, each player receives 12 pawns</li>
+                <li>Each player can move one square at a time in all directions (except diagonally)</li>
+                <li>To capture a pawn, a player must jump over the opponent's pawn with their own</li>
+                <li>The first to capture all of the opponent's pieces wins!</li>
+            </ul>
+        </summary>
+    </section>
+
+    <figure id="gameplay">
+        <video width="531" height="614" autoplay muted loop>
+            <source id="video" src="media/choko.mp4" type="video/mp4">
+        </video>
+    </figure>
+
+    <article id="why">
+        <h1>Why should you invest?</h1>
+    </article>
+
+    <section id="invest_now">
+        <article id="first">
+            <h4>Backed by an experienced team of programmers and designers</h4>
+        </article>
+        <article id="second">
+            <h4>Extensive experience in <br>Game Development</h4>
+        </article>
+        <article id="third">
+            <h4>Proven industry track record with various successful projects</h4>
+        </article>
+        <article id="fourth">
+            <h4>A traditionally beloved game <br>now made digital</h4>
+        </article>
+    </section>
+
+    <section id="system-requirements">
+        <h2>Installation and System Requirements<hr></h2>
+        <p>You can download the game <a href="www.google.com">here</a>. To run the game simply run Choko.jar on your local machine.<br></p>
+        <p>To run Choko, you simply need an internet connection and (for now), a connection to our server. <br>
+            <br>As we develop the game further, we aim to deploy it on a public server<br>
+            for all to enjoy around the world and to experience tradition - <a class="highlighted-term"><em>reimagined</em></a></p>
+    </section>
+</main>
+
+<section id="contact-team">
+    <h1>Contact us!</h1>
+    <form id="contact-form">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+        <fieldset>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+        </fieldset>
+        <fieldset id="buttons">
+            <button type="submit">Submit Message</button>
+        </fieldset>
+    </form>
+</section>
+
+<footer>
+    <p>Copyright&copy; ACS-104-T8</p>
+</footer>
+</body>
+</html>

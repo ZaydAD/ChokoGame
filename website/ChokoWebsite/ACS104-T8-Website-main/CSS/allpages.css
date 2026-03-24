@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Gazpacho';
+    src: url('../css/fonts/Gazpacho Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    font-family: Gazpacho, sans-serif;
+}
+
+header {
+    padding-top: 90px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: rgb(255, 255, 255);
+    height: 70px;
+    padding: 0 2vw; 
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+    font-family: Gazpacho, sans-serif;
+    font-size: 20px;
+}
+
+.navbar > * {
+    list-style: none;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    color: darkslateblue;
+  }
+
+#tabs-left,
+#tabs-center,
+#tabs-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+ }
+
+#tabs-center {
+    justify-content: center;
+    gap: 20px;
+}
+
+#tabs-right {
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#tabs-left img {
+    height: 50px;
+    width: auto;
+}
+
+header p {
+    margin-top: -80px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    font-family: Gazpacho, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    #main-title {
+        margin-top: 100px;
+    }
+
+    header p {
+        margin-top: -60px !important;
+        font-size: 14px;
+        padding: 0 10px;
+        position: static;
+    }
+
+    #tabs-center {
+        flex-direction: row;
+        gap: 1px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 2px 2vw;
+    }
+
+    #tabs-left,
+    #tabs-center,
+    #tabs-right {
+        flex: none;
+        justify-content: center;
+    }
+
+    #tabs-left img {
+        height: 30px;
+    }
+
+    #tabs-right {
+        padding-bottom: 5px;
+    }
+}

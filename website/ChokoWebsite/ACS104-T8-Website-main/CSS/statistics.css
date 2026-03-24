@@ -1,0 +1,53 @@
+#main-title {
+    text-align: center;
+    font-family: Gazpacho, sans-serif;
+    margin-top: -20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: darkslateblue;
+    text-transform: uppercase;
+    text-shadow: lightgray 2px 2px 2px;
+}
+
+#stats-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Gazpacho, sans-serif;
+    overflow: wrap;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    margin-left: 20px;
+    font-size: 40px;
+    color: darkslateblue;
+}
+
+#stats-wrapper button {
+    font-size: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: Gazpacho
+}
+
+#stats-wrapper button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 25px;
+    }
+}

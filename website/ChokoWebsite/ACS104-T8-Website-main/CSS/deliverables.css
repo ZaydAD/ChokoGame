@@ -1,0 +1,133 @@
+#deliverable-title {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    font-family: Gazpacho, sans-serif;
+    font-size: 60px;
+    color: darkslateblue;
+    text-shadow: lightgray 2px 2px 2px;
+    overflow: wrap;
+}
+
+#sprint-breakdown {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(15%);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#sprint-breakdown article {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+#sprint-breakdown ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+#sprint-breakdown li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+article h2 {
+    color: darkslateblue;
+}
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+
+
+#deliverables {
+    display: block;
+    text-align: center;
+}
+
+#deliverables img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#deliverables table {
+    margin: 50px auto; 
+    border-collapse: collapse; 
+    font-family: Gazpacho-Regular;
+    font-size: 14px;
+}
+
+#deliverables th, 
+#deliverables td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: Gazpacho;
+}
+
+#deliverables th {
+    background-color: darkslateblue;
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+#deliverables h2 {
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    #deliverable-title {
+      font-size: 36px;
+      margin-top: 160px;
+      padding: 0 10px 20px;
+      text-align: center;
+    }
+
+    #sprint-breakdown {
+      transform: translateX(0%);
+    }
+  
+    #deliverables img {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    #deliverables table {
+      width: 95%;
+      font-size: 13px;
+      margin: 30px auto;
+      overflow-x: auto;
+      display: block;
+    }
+  
+    #deliverables th,
+    #deliverables td {
+      padding: 10px;
+      font-size: 13px;
+    }
+  
+    #deliverables th {
+      font-size: 14px;
+    }
+  
+    #deliverables h2 {
+      font-size: 22px;
+      padding-top: 30px;
+    }
+  }
+  
