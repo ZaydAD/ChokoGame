@@ -1,0 +1,14 @@
+{
+  "name": ".idea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/kdg-ti/integration-1.2/2024-2025/acs104-t8/ACS104-T8-Game.git"
+  },
+  "private": true
+}
