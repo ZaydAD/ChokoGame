@@ -4,6 +4,12 @@ A strategic board game developed in Java using JavaFX, accompanied by a website 
 
 ---
 
+## Collaboration
+
+This project was developed as part of a group. I contributed to the design and implementation of the application, including core features, architecture, and overall functionality. The project reflects both collaborative teamwork and individual contributions.
+
+---
+
 ## Overview
 
 This project builds on my earlier Wordle ASCII game and represents a transition to JavaFX for graphical user interface development. It demonstrates improvements in code structure, usability, and overall design.
